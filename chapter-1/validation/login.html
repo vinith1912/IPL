@@ -1,0 +1,46 @@
+<html>
+<style>
+    body {
+        background-image: url(messi.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    
+    }
+</style>
+<body>
+<script language="javascript">
+function validate()
+{
+
+	var flag=1;
+	if(document.myform.id.value==""||document.myform.pwd.value=="")
+	{
+		alert("username and Password must be filled")
+ 		flag=0;
+	}
+	if(flag==1)
+	{
+		alert("VALID INPUT");
+ 		window.open("catalog.html","right");
+	}
+	else
+	{
+		alert("INVALID INPUT");
+		//document.myform.focus();
+	}
+}
+</script>
+<form name="myform">
+<div align="center" style="color: darkorange;"><pre>
+ENTER USERNAME:<input type="text" name="id" placeholder="enter username" ><br>
+ENTER PASSWORD:<input type="password" name="pwd" placeholder="enter Password
+">
+<br><br>
+</pre>
+<input type="button" value="submit" onClick="validate()">
+<input type="button" value="clear">
+</div>
+</form>
+</body>
+</html>
