@@ -1,0 +1,62 @@
+<playerlist>
+<pid>p01</pid>
+<pname>Lionel Messi</pname>
+<country>Argentina</country>
+<position>AMF</position>
+<jno>10</jno>
+
+<pid>p02</pid>
+<pname>Neymar Junior</pname>
+<country>Brazil</country>
+<position>LWF</position>
+<jno>11</jno>
+
+<pid>p03</pid>
+<pname>Suarez</pname>
+<country>Uruguay</country>
+<position>ST</position>
+<jno>09</jno>
+
+<pid>p04</pid>
+<pname>Andrea Iniesta</pname>
+<country>Spain</country>
+<position>CMF</position>
+<jno>07</jno>
+ 
+<pid>p05</pid>
+<pname>Xavi</pname>
+<country>Spain</country>
+<position>CMF</position>
+<jno>08</jno>
+
+<pid>p06</pid>
+<pname>Rakitic</pname>
+<country>Spain</country>
+<position>CMF</position>
+<jno>12</jno>
+
+<pid>p07</pid>
+<pname>Sergio Busquets</pname>
+<country>Spain</country>
+<position>CB</position>
+<jno>15</jno>
+
+<pid>p08</pid>
+<pname>Dani Alves</pname>
+<country>Brazil</country>
+<position>LB</position>
+<jno>18</jno>
+
+<pid>p09</pid>
+<pname>Araujo</pname>
+<country>Uruguay</country>
+<position>RB</position>
+<jno>22</jno>
+
+<pid>p10</pid>
+<pname>Ter Stegen</pname>
+<country>Spain</country>
+<position>GK</position>
+<jno>1</jno>
+
+</playerlist>
