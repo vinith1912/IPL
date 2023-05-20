@@ -1,0 +1,32 @@
+<html>
+<body bgcolor=”beige”><br><br>
+<script language=”javascript”>
+var str=document.myform.phno.value;
+var x;
+if(flag==1)
+{
+    alert("VALID INPUT");
+}
+else
+{
+    alert("INVALID INPUT");
+    document.myform.focus();
+}
+}
+</script>
+<form name="myform">
+<div align="center"><pre>
+NAME:<input type="text" name="name"><br>
+EMAIL ADDRESS :<input type="type" placeholder="enter email" name="addr"><br>
+CONTACT NUMBER:<input type="number" name="phno"><br>
+ENTER USERNAME :<input type="text" name="name"><br>
+DOB:<input type="date" id="football" name="football"><br>
+ENTER PASSWORD :<input type="password" name="pwd"><br>
+CONFIRM PASSWORD :<input type="password" name="pwd"></pre><br><br>
+</div>
+
+<br><br>
+<div align="center">
+<input type="submit" value="submit" onClick="validate()">&nbsp;&nbsp;&nbsp;
+<input type="reset" value="clear">
+</form></body></html>
